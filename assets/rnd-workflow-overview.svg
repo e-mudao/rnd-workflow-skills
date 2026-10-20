@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">rnd-workflow：从目标到有证据的交付</title>
+  <desc id="desc">把目标与约束交给 rnd-lead。它根据当前事实选用技能，接回结果，最后交付当前证据和剩余项；审查发现进入修复与复验循环。</desc>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .head { fill: #142a43; font-size: 48px; font-weight: 750; }
+      .meta { fill: #45617b; font-size: 20px; font-weight: 700; letter-spacing: 1px; }
+      .kicker { fill: #c0d6eb; font-size: 20px; font-weight: 700; letter-spacing: 1px; }
+      .main { fill: #ffffff; font-size: 48px; font-weight: 750; }
+      .note { fill: #e0ecf6; font-size: 22px; }
+      .roles { fill: #17314e; font-size: 27px; font-weight: 650; }
+      .loop { fill: #47617a; font-size: 23px; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10" fill="none" stroke="#bcd3e9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="520" rx="26" fill="#f5f8fc"/>
+  <rect x="1" y="1" width="1198" height="518" rx="25" fill="none" stroke="#d9e3ed" stroke-width="2"/>
+  <text x="54" y="61" class="meta">rnd-workflow  /  11 个技能 / 1 个入口</text>
+  <text x="54" y="126" class="head">从目标到有证据的交付</text>
+
+  <g id="workflow">
+    <rect x="40" y="160" width="1120" height="230" rx="23" fill="#132d49"/>
+    <rect x="61" y="180" width="300" height="190" rx="17" fill="#284661"/>
+    <rect x="450" y="180" width="300" height="190" rx="17" fill="#3677c6"/>
+    <rect x="839" y="180" width="300" height="190" rx="17" fill="#284661"/>
+    <path d="M378 275 H430" fill="none" stroke="#bcd3e9" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <path d="M767 275 H819" fill="none" stroke="#bcd3e9" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <text x="86" y="220" class="kicker">输入</text>
+    <text x="86" y="286" class="main">目标与约束</text>
+    <text x="86" y="337" class="note">新任务 · 续接 · 重构</text>
+    <text x="475" y="220" class="kicker">编排</text>
+    <text x="475" y="286" class="main">rnd-lead</text>
+    <text x="475" y="337" class="note">核对事实 · 选择职责</text>
+    <text x="864" y="220" class="kicker">输出</text>
+    <text x="864" y="286" class="main">证据交付</text>
+    <text x="864" y="337" class="note">当前结果 · 缺口 · 下一步</text>
+  </g>
+
+  <g id="roles">
+    <text x="600" y="441" text-anchor="middle" class="roles">发现  →  规格  →  计划  →  实现  →  审查  →  核验</text>
+    <text x="600" y="486" text-anchor="middle" class="loop">发现问题  →  修复  →  复验</text>
+  </g>
+</svg>

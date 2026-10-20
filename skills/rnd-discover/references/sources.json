@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "profile": "copyable-skills",
+  "sources": [
+    {
+      "project": "pm-skills",
+      "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+      "path": "pm-product-discovery/skills/identify-assumptions-new/SKILL.md",
+      "digest": "sha256:962b1e0c01e45ceb930e4d806c0ffb05e36cf25dcfef5497e7828d89d6ae474b",
+      "excerpt_ref": {
+        "path": "upstream/pm-skills-identify-assumptions-new.md",
+        "digest": "sha256:962b1e0c01e45ceb930e4d806c0ffb05e36cf25dcfef5497e7828d89d6ae474b"
+      },
+      "license": "MIT",
+      "license_ref": {
+        "path": "upstream/pm-skills-LICENSE.txt",
+        "digest": "sha256:a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee"
+      },
+      "mode": "adapted",
+      "usage": "SKILL.md",
+      "changes": "Retain risk categories, explicit confidence and proposed tests; apply only material categories to the current request. Copyable profile: use existing project artifacts/tools; runtime metadata and automatic gates are not required.",
+      "notices": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "project": "pm-skills",
+      "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+      "path": "pm-product-discovery/skills/summarize-interview/SKILL.md",
+      "digest": "sha256:5a2a0c8257f5e2f7ef098d4531acbbcd3087bb07bb87d4cabfe1a97ef1ad037c",
+      "excerpt_ref": {
+        "path": "upstream/pm-skills-summarize-interview.md",
+        "digest": "sha256:5a2a0c8257f5e2f7ef098d4531acbbcd3087bb07bb87d4cabfe1a97ef1ad037c"
+      },
+      "license": "MIT",
+      "license_ref": {
+        "path": "upstream/pm-skills-LICENSE.txt",
+        "digest": "sha256:a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee"
+      },
+      "mode": "adapted",
+      "usage": "SKILL.md",
+      "changes": "Retain complete reading, current solution/problems, unknown fields and action items; use a compact collection brief. Copyable profile: use existing project artifacts/tools; runtime metadata and automatic gates are not required.",
+      "notices": "THIRD_PARTY_NOTICES.md"
+    }
+  ],
+  "single_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-03",
+    "usage": [
+      "SKILL.md",
+      "references/workflow.md"
+    ],
+    "changes": "Single-person continuity: explicit same-Agent phase returns, scoped execution and stop conditions, a brief current-task index in existing documents, current-version repair/recheck closure and project-bound verification. Collection synthesis; no runtime, service, fixed state schema or execution privilege is added."
+  },
+  "adaptive_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-04",
+    "rule_ids": [
+      "SW-CKP-1",
+      "SW-CKP-2",
+      "SW-EXP-1",
+      "SW-ADAPT-1"
+    ],
+    "usage": [
+      "SKILL.md",
+      "references/workflow.md"
+    ],
+    "changes": "Adaptive single-person workflow: SW-CKP-1 establishes first-batch/checkpoint agreement while retaining explicit continuous authorization; SW-CKP-2 preserves pending and partial confirmations with artifact scope and reply basis across recovery; SW-EXP-1 assigns experiment questions/analysis, criteria, methods/samples and execution facts to existing authors; SW-ADAPT-1 scales relevant reading, batches, artifact review and domain evidence to the requested goal. Collection synthesis; no new roles, runtime, approval service or host privilege."
+  },
+  "retrospective_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-09",
+    "basis": "User-provided MacOfficeTabs development retrospective; collection-authored operating rules, not upstream claims.",
+    "usage": [
+      "SKILL.md",
+      "references/workflow.md"
+    ],
+    "changes": "Project-retrospective synthesis: in-place current summaries and historical entry cleanup; manual acceptance rounds bound to running candidates and protected recoverable artifacts; critical counterexamples before dependent expansion; refusal recovery, native desktop states, and compilation-versus-behavior RED; single authoritative behavior with references. No additional roles, execution privileges, or user runtime."
+  },
+  "proportional_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-09",
+    "basis": "Collection-authored clarification based on the user-provided summary of Matt Pocock and approved review; no upstream text imported or independent attribution verification claimed.",
+    "usage": [
+      "SKILL.md",
+      "references/workflow.md"
+    ],
+    "changes": "Proportionate execution: clear low-risk work can use the user request and current facts without creating workflow documents; clarification and planning stop when sufficient and shrink when complexity is resolved; follow applicable existing plans and maintain state when recovery or handoff is needed. Preserve proportionate verification, evidence and authorization; no new roles or process tiers."
+  },
+  "review_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-14",
+    "usage": [
+      "references/workflow.md",
+      "references/responsibilities.md",
+      "references/state-recovery.md",
+      "references/manual-acceptance.md"
+    ],
+    "changes": "Review fixes: conditional design/spec/plan handoffs; aligned unavailable-baseline evidence handling; native layout checks limited to supported modes; authorized work continues without a first-batch approval gate; conditional responsibility, recovery and manual-acceptance references. Prior adaptation entries are historical; current instructions govern. Pinned upstream materials and licenses are unchanged."
+  }
+}

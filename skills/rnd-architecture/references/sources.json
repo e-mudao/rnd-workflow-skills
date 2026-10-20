@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "profile": "copyable-skills",
+  "sources": [
+    {
+      "project": "agent-skills",
+      "commit": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
+      "path": "skills/documentation-and-adrs/SKILL.md",
+      "digest": "sha256:87ae44a0c7bb3eefc2131a9d11caabcc14e4d8dcb27d66a3a675551ee2ce1671",
+      "excerpt_ref": {
+        "path": "upstream/agent-skills-documentation-and-adrs.md",
+        "digest": "sha256:87ae44a0c7bb3eefc2131a9d11caabcc14e4d8dcb27d66a3a675551ee2ce1671"
+      },
+      "license": "MIT",
+      "license_ref": {
+        "path": "upstream/agent-skills-LICENSE.txt",
+        "digest": "sha256:6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+      },
+      "mode": "adapted",
+      "usage": "SKILL.md",
+      "changes": "Retain Context/Decision/Consequences and decision history; attach collection references and return impacts to spec/plan. Copyable profile: use existing project artifacts/tools; runtime metadata and automatic gates are not required.",
+      "notices": "THIRD_PARTY_NOTICES.md"
+    }
+  ],
+  "single_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-03",
+    "usage": [
+      "SKILL.md",
+      "references/workflow.md"
+    ],
+    "changes": "Single-person continuity: explicit same-Agent phase returns, scoped execution and stop conditions, a brief current-task index in existing documents, current-version repair/recheck closure and project-bound verification. Collection synthesis; no runtime, service, fixed state schema or execution privilege is added."
+  },
+  "adaptive_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-04",
+    "rule_ids": [
+      "SW-CKP-1",
+      "SW-CKP-2",
+      "SW-EXP-1",
+      "SW-ADAPT-1"
+    ],
+    "usage": [
+      "references/workflow.md"
+    ],
+    "changes": "Adaptive single-person workflow: SW-CKP-1 establishes first-batch/checkpoint agreement while retaining explicit continuous authorization; SW-CKP-2 preserves pending and partial confirmations with artifact scope and reply basis across recovery; SW-EXP-1 assigns experiment questions/analysis, criteria, methods/samples and execution facts to existing authors; SW-ADAPT-1 scales relevant reading, batches, artifact review and domain evidence to the requested goal. Collection synthesis; no new roles, runtime, approval service or host privilege."
+  },
+  "retrospective_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-09",
+    "basis": "User-provided MacOfficeTabs development retrospective; collection-authored operating rules, not upstream claims.",
+    "usage": [
+      "SKILL.md",
+      "references/workflow.md"
+    ],
+    "changes": "Project-retrospective synthesis: in-place current summaries and historical entry cleanup; manual acceptance rounds bound to running candidates and protected recoverable artifacts; critical counterexamples before dependent expansion; refusal recovery, native desktop states, and compilation-versus-behavior RED; single authoritative behavior with references. No additional roles, execution privileges, or user runtime."
+  },
+  "proportional_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-09",
+    "basis": "Collection-authored clarification based on the user-provided summary of Matt Pocock and approved review; no upstream text imported or independent attribution verification claimed.",
+    "usage": [
+      "references/workflow.md"
+    ],
+    "changes": "Proportionate execution: clear low-risk work can use the user request and current facts without creating workflow documents; clarification and planning stop when sufficient and shrink when complexity is resolved; follow applicable existing plans and maintain state when recovery or handoff is needed. Preserve proportionate verification, evidence and authorization; no new roles or process tiers."
+  },
+  "review_adaptation": {
+    "mode": "synthesis",
+    "date": "2026-10-14",
+    "usage": [
+      "references/workflow.md",
+      "references/responsibilities.md",
+      "references/state-recovery.md",
+      "references/manual-acceptance.md"
+    ],
+    "changes": "Review fixes: conditional design/spec/plan handoffs; aligned unavailable-baseline evidence handling; native layout checks limited to supported modes; authorized work continues without a first-batch approval gate; conditional responsibility, recovery and manual-acceptance references. Prior adaptation entries are historical; current instructions govern. Pinned upstream materials and licenses are unchanged."
+  }
+}
