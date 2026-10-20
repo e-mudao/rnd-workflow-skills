@@ -8,7 +8,7 @@ rnd-workflow 是面向个人开发者的轻量技能集合，适用于 Codex、D
 
 ![rnd-workflow 流程示意：目标交给 rnd-lead，按需选择职责；发现问题后修复并复验，最终交付证据与剩余项](assets/rnd-workflow-overview.svg)
 
-[快速开始](#快速开始) · [安装](#安装) · [工作方式](#工作方式) · [11 个技能](#11-个技能) · [四种起点示例](USAGE.md) · [详细指南](guide.md)
+[快速开始](#快速开始) · [安装](#安装) · [工作方式](#工作方式) · [11 个技能](#11-个技能) · [详细指南](guide.md)
 
 ## 快速开始
 
@@ -32,7 +32,7 @@ $rnd-lead
 | DSH | `<项目>/.dsh/skills/` | `调用 skill(rnd-lead) …` |
 | Claude Code | `<项目>/.claude/skills/` | `/rnd-lead …` |
 
-想先评审方案、继续上次任务，或只做审查？[四种起点使用说明](USAGE.md)提供可改写的 Prompt；[完整指南](guide.md)解释各角色、停止点和证据复用。
+想先评审方案、继续上次任务，或只做审查？[使用指南](guide.md#快速选择入口)说明如何选择入口；[完整指南](guide.md)解释各角色、停止点和证据复用。
 
 ## 安装
 
@@ -94,6 +94,6 @@ $rnd-lead
 
 ## 包内容与许可
 
-当前目录是技能分发包，包含 11 个可复制的技能文件夹、使用文档和本页流程图；生成时的维护源与打包脚本不包含在包中。版本及打包时的来源状态见 [PACKAGE-INFO.md](PACKAGE-INFO.md)。本包也不包含行为案例集或项目级文档。
+当前目录是技能分发包，包含 11 个可复制的技能文件夹、使用文档和本页流程图；生成时的维护源、打包脚本及打包记录不包含在发布内容中。本包也不包含行为案例集或项目级文档。
 
 本集合综合并适配 GSD、pm-skills、Spec Kit、Superpowers、agent-skills、HumanLayer 和 security-audit-skill 等方法。各技能的 `references/methods.md` 与 `sources.json` 记录来源及适配信息。本集合采用 **MIT License**；许可与第三方归属随每个技能保留，见各目录的 `LICENSE` 与 `THIRD_PARTY_NOTICES.md`。

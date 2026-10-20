@@ -32,7 +32,7 @@ Replace the placeholders and send it as a **session message**, not a terminal co
 | DSH | `<project>/.dsh/skills/` | `invoke skill(rnd-lead) …` |
 | Claude Code | `<project>/.claude/skills/` | `/rnd-lead …` |
 
-For a plan-first request, continuation, or review-only request, adapt the examples in the [usage sheet (Chinese)](USAGE.md). The [detailed guide (Chinese)](guide.md) explains each role, stop conditions, and evidence reuse.
+For a plan-first request, continuation, or review-only request, see [how to choose an entry point (Chinese)](guide.md#快速选择入口). The [detailed guide (Chinese)](guide.md) explains each role, stop conditions, and evidence reuse.
 
 ## Install
 
@@ -94,6 +94,6 @@ Install the whole collection for the complete workflow, or invoke a role on its 
 
 ## Package contents and license
 
-This directory is a distributable skill package. It contains 11 complete skill folders, usage documentation, and the workflow diagram shown in the Chinese README. The maintenance source and packaging scripts used to create it are not included. See [PACKAGE-INFO.md](PACKAGE-INFO.md) for the version and source state recorded at packaging time. The package also excludes a behavioral case set and project-level documents.
+This directory is a distributable skill package. It contains 11 complete skill folders, usage documentation, and the workflow diagram shown in the Chinese README. The maintenance source, packaging scripts, and packaging record are excluded from the published content. The package also excludes a behavioral case set and project-level documents.
 
 The collection synthesizes and adapts methods from GSD, pm-skills, Spec Kit, Superpowers, agent-skills, HumanLayer, and security-audit-skill. Each skill's `references/methods.md` and `sources.json` record sources and adaptations. The collection uses the **MIT License**; licenses and third-party attribution remain in each skill's `LICENSE` and `THIRD_PARTY_NOTICES.md`.
